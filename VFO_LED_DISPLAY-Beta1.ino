@@ -1,6 +1,6 @@
 /**
   ******************************************************************************
-  * @file    VFO_LED_DISPLAY-REV.1.ino
+  * @file    VFO_LED_DISPLAY-Beta1.ino
   * @author  Stefano Homebrew
   * @version V1.0
   * @date    22-11-2023
