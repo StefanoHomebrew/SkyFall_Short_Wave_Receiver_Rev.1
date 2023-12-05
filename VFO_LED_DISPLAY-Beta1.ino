@@ -76,7 +76,7 @@ void setup() {
     si5351.init(SI5351_CRYSTAL_LOAD_8PF, 0,0);
     si5351.set_correction(100000, SI5351_PLL_INPUT_XO);
     si5351.drive_strength(SI5351_CLK2, SI5351_DRIVE_6MA);
-    si5351.output_enable(SI5351_CLK1, 1);
+    si5351.output_enable(SI5351_CLK2, 1);
 ///////////////////////////////////////////////////////////////////     
     lc.shutdown(0,false);// turn off power saving, enables display
     lc.setIntensity(0,10);// sets brightness (0~15 possible values)
